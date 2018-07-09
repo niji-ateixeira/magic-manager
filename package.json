@@ -8,10 +8,17 @@
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
+  "devDependencies": {
+    "babel-jest": "^23.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.3.0",
+    "react-test-renderer": "^16.4.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest scr/ --coverage --testPathPattern .test.js",
     "eject": "react-scripts eject",
     "commit": "git-cz"
   }
