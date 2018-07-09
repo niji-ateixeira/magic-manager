@@ -9,9 +9,15 @@
     "react-scripts": "1.1.4"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.5",
     "babel-jest": "^23.2.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0",
     "jest": "^23.3.0",
     "react-test-renderer": "^16.4.1"
   },
@@ -19,6 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest scr/ --coverage --testPathPattern .test.js",
+    "test:update": "jest scr/ --updateSnapshot --testPathPattern .test.js",
+    "lint": "eslint ./src/js",
+    "lint:fix": "eslint ./src/js --fix",
     "eject": "react-scripts eject",
     "commit": "git-cz"
   }
