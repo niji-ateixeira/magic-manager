@@ -15,6 +15,9 @@ const App = ({ classes, children }) => {
         <header>
           Welcome to React
         </header>
+        <div>
+          Que ce passe-t-il dans ta tete?
+        </div>
         <footer>
           fin de page
         </footer>
