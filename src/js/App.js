@@ -1,25 +1,24 @@
-import React, { Component } from 'react';
-import injectSheet from 'react-jss'
+import React from 'react';
+import injectSheet from 'react-jss';
 
 const styles = {
-  App:{
-    background:'red'
-  }
-}
+  App: {
+    background: 'red',
+  },
+};
 
-const App = ({ classes, children }) => {
-    const toto = 'toto'
-    
-    return (
-      <div className={classes.App}>
-        <header>
+const App = ({ classes }) => (
+  <div className={classes.App}>
+    <header>
           Welcome to React
-        </header>
-        <footer>
+    </header>
+    <div>
+          Que ce passe-t-il dans ta tete?
+    </div>
+    <footer>
           fin de page
-        </footer>
-      </div>
-    );
-}
+    </footer>
+  </div>
+);
 
 export default injectSheet(styles)(App);
