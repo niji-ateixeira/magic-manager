@@ -5,13 +5,13 @@ exports[`renders without crashing 1`] = `
   className="App-App-0-1-1"
 >
   <header>
-    Welcome to React
+    Header
   </header>
   <div>
     Que ce passe-t-il dans ta tete?
   </div>
   <footer>
-    fin de page
+    Footer
   </footer>
 </div>
 `;

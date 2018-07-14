@@ -1,24 +1,11 @@
 import React from 'react';
-import injectSheet from 'react-jss';
+import { Header, Footer } from './view/containers';
 
-const styles = {
-  App: {
-    background: 'red',
-  },
-};
-
-const App = ({ classes }) => (
-  <div className={classes.App}>
-    <header>
-          Welcome to React
-    </header>
-    <div>
-          Que ce passe-t-il dans ta tete?
-    </div>
-    <footer>
-          fin de page
-    </footer>
+const App = () => (
+  <div>
+    <Header />
+    <Footer />
   </div>
 );
 
-export default injectSheet(styles)(App);
+export default App;
