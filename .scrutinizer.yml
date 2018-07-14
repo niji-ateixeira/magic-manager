@@ -1,0 +1,19 @@
+checks:
+    javascript: true
+
+build:
+    nodes:
+        analysis:
+
+            project_setup:
+                override: true
+            tests:
+                override:
+                    - jshint-run
+                    - js-scrutinizer-run
+                    - eslint-run src/js
+                    -
+                        command: 'npm run test'
+                        coverage:
+                            file: 'coverage/clover.xml'
+                            format: 'clover'
