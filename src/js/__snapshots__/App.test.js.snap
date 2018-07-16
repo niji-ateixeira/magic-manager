@@ -1,17 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders without crashing 1`] = `
-<div
-  className="App-App-0-1-1"
->
-  <header>
-    Welcome to React
+<div>
+  <header
+    className="Header-Container-0-1-1"
+  >
+    <span
+      className="Header-Text-0-1-2"
+    >
+      Bienvenue sur Magic Manager
+    </span>
   </header>
-  <div>
-    Que ce passe-t-il dans ta tete?
-  </div>
   <footer>
-    fin de page
+    Footer
   </footer>
 </div>
 `;

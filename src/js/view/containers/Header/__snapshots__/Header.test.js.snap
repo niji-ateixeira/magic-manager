@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<header
+  className="Header-Container-0-1-1"
+>
+  <span
+    className="Header-Text-0-1-2"
+  >
+    Bienvenue sur Magic Manager
+  </span>
+</header>
+`;
