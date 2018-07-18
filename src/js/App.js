@@ -1,11 +1,13 @@
 import React from 'react';
-import { Header, Footer } from './view/containers';
+import { Provider } from 'react-redux';
+import store from './store';
+
+import Router from './router';
 
 const App = () => (
-  <div>
-    <Header />
-    <Footer />
-  </div>
+  <Provider store={store}>
+    <Router />
+  </Provider>
 );
 
 export default App;
