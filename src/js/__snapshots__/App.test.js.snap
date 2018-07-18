@@ -1,18 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders without crashing 1`] = `
-<div>
-  <header
-    className="Header-Container-0-1-1"
-  >
-    <span
-      className="Header-Text-0-1-2"
-    >
-      Bienvenue sur Magic Manager
-    </span>
-  </header>
-  <footer>
-    Footer
-  </footer>
-</div>
-`;
+exports[`renders without crashing 1`] = `null`;
